@@ -12,10 +12,10 @@ easy_pub -> /words -> easy_sub
 
 Launch publisher:
 ```
-ros2 run easy_pkg easy_pub
+ros2 run easy_pkg easy_publisher
 ```
 
 Launch subscriber:
 ```
-ros2 run easy_pkg easy_sub
+ros2 run easy_pkg easy_subscriber
 ```
