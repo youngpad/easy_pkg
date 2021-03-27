@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'easy_pub = easy_pkg.easy_publisher:main',
-                'easy_sub = easy_pkg.easy_subscriber:main'
+                'easy_publisher = easy_pkg.easy_publisher:main',
+                'easy_subscriber = easy_pkg.easy_subscriber:main'
         ],
     },
 )
