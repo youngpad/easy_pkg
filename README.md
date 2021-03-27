@@ -7,3 +7,15 @@ Two nodes, a publisher and subscriber:
 * Subscriber subscribes to /words-topic and prints message to terminal.
 
 easy_pub -> /words -> easy_sub
+
+## How to use
+
+Launch publisher:
+```
+ros2 run easy_pkg easy_pub
+```
+
+Launch subscriber:
+```
+ros2 run easy_pkg easy_sub
+```
